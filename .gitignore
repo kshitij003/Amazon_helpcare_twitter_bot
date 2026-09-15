@@ -1,0 +1,16 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large datasets & raw files (>100MB GitHub limit)
+twcs.csv
+data/*.csv
+
+# Local ChromaDB vector database binaries
+data/chroma_db/
+
+# OS / IDE metadata
+.DS_Store
+.vscode/
+.idea/
