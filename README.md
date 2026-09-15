@@ -89,26 +89,6 @@ python 05_agent.py
 
 ---
 
-## Example Usage
-
-```text
-Customer: @AmazonHelp my package says delivered but it's not here, driver probably left it at wrong house
-
-Agent Output:
-{
-  "customer_message": "@AmazonHelp my package says delivered but it's not here, driver probably left it at wrong house",
-  "detected_language": "en",
-  "predicted_intent": "delivery_issue",
-  "intent_confidence": 0.9626,
-  "intent_margin": 0.9312,
-  "second_place_intent": "order_issue",
-  "used_llm_tiebreaker": false,
-  "retrieved_case_count": 3,
-  "escalate": false,
-  "escalation_reason": "Clear intent with strong historical precedent",
-  "draft_reply": "We're sorry to hear your package hasn't arrived. Please send us a DM with your order details so we can look into this for you! https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7"
-}
-```
 
 ---
 
